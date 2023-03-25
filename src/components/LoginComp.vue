@@ -1,4 +1,5 @@
 <template>
+  <SpinnerComp class="spinner" v-if="isLoading"/>
   <div class="login d-flex justify-content-center">
     <form class="form" @submit.prevent="onLogIn">
       <p>Login</p>
@@ -42,13 +43,17 @@
   </div>
 </template>
 <script>
+import SpinnerComp from '@/components/SpinnerComp.vue';
 export default {
+  components: {
+    SpinnerComp
+  },
   data() {
     return {
       payload: {
         emailAdd: "",
         userPass: "",
-      },
+      }
     };
   },
   computed: {

@@ -42,6 +42,7 @@ export default {
   justify-content: center;
   align-items: center;
   padding-top: 50px;
+  margin: 30px;
 }
 
 .contact-form label {
@@ -104,5 +105,6 @@ textarea {
 .contact{
   background-color: rgb(117, 190 ,218 , 0.5);
   padding-top: 100px;
+  
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <NavBar></NavBar>
-  <div class="container-fluid" style="height:100%">
+  <div class="container-fluid">
     <router-view/>
   </div>
   <footer-comp></footer-comp>
@@ -23,7 +23,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-color: l;
+  /* background-color: l; */
 }
 nav {
   padding: 30px;

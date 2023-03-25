@@ -9,10 +9,10 @@
     /></a>
     <ul class="nav-links">
       <li class="nav-item">
-        <router-link to="/">Login</router-link>
+        <router-link to="/login">Login</router-link>
       </li>
       <li class="nav-item">
-        <router-link to="/home">Home</router-link>
+        <router-link to="/">Home</router-link>
       </li>
       <li class="nav-item">
         <router-link to="/products">Products</router-link>

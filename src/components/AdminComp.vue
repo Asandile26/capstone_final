@@ -6,7 +6,7 @@
               <button class="btn btn-secondary w-50">Add User</button>
         </router-link> -->
     <SpinnerCompVue class="spinner" v-if="isLoading" />
-    <table v-else class="table">
+    <table v-else class="table bg-light">
       <thead class="table-dark">
         <tr>
           <th scope="col">ID</th>
@@ -57,7 +57,7 @@
 
     <h2>Product Table</h2>
     <SpinnerCompVue class="spinner" v-if="isLoading" />
-    <table v-else class="table">
+    <table v-else class="table bg-light">
       <thead class="table-dark">
         <tr>
           <th scope="col">prodName</th>

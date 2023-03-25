@@ -1,7 +1,7 @@
 <template lang="">
   <div >
     <div class="products">
-      <div class="Search-Bar">
+      <div class="Search-Bar d-flex justify-content-end align-items-end p-5 my-1">
         <input type="text" id="search" v-model="searchQuery">
         <button type="submit"><i class="bi bi-search"></i></button>
       </div>
@@ -84,5 +84,9 @@ export default {
     padding-top: 50px;
     justify-content: end;
     align-content: end;
+    /* margin-top: auto !important; */
+  }
+  button{
+    margin: 4p 2px;
   }
 </style>

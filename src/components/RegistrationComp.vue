@@ -1,4 +1,5 @@
 <template lang="">
+  <SpinnerComp class="spinner" v-if="isLoading"/>
   <div class="Registration d-flex justify-content-center">
     <div class="card">
       <div class="card-header">
@@ -132,7 +133,11 @@
 <script>
 import { useStore } from "vuex";
 import { computed } from "@vue/reactivity";
+import SpinnerComp from '@/components/SpinnerComp.vue';
 export default {
+  components: {
+    SpinnerComp
+  },
   setup() {
     const payload = {
       firstName: "",
@@ -239,5 +244,8 @@ export default {
 .btn:hover {
   background-color: #ccc;
   color: #333;
+}
+.Registration{
+  background-color: rgb(117, 190 ,218 , 0.5);
 }
 </style>

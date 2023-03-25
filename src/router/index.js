@@ -13,12 +13,12 @@ import LogOutVue from '@/components/LogOut.vue'
 import AddUserVue from '@/components/AddUser.vue'
 const routes = [
   {
-    path: '/',
+    path: '/login',
     name: 'login',
     component: LoginViewVue
   },
   {
-    path: '/home',
+    path: '/',
     name: 'home',
     component: HomeView
   },
