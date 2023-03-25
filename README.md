@@ -1,19 +1,12 @@
 # run_it
+DBHost = 'bxdouxbzbsy4lpadkgls-mysql.services.clever-cloud.com'
+DBUser = 'us0antzqczacbzew'
+DBPassword = 'v6MRBdyChYnBnOsZtssQ'
+DBName = 'bxdouxbzbsy4lpadkgls'
+DBPort ='3306'
 
-## Project setup
-```
-npm install
-```
+appName = 'RUN IT'
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+PORT = 1996
+#JWT Secret Key
+SECRET_KEY = 'YOU WILL NEVER WALK ALONE'
